@@ -55,7 +55,7 @@ Private Key (WIF): Kx983JD...S2RtHJy
 Current Balance:  0.00000000 BTC
 ```
 ## 🔧 Technical Process
-Wallet Generation Workflow
+### Wallet Generation Workflow
 1. Mnemonic → BIP39 entropy generation
 2. Seed → PBKDF2 derivation (empty passphrase)
 3. Master Key → HMAC-SHA512("Bitcoin seed", seed)[:32]
