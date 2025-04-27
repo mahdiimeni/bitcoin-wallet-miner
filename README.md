@@ -69,7 +69,7 @@ def hex_to_wif(hex_key):
     # 3. Base58Check encoding
     return base58.b58encode(...)
 ```
-#### API Implementations
+### API Implementations
 #### Active Method (SDK)
 ```
 from blockcypher import get_address_overview
